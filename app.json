@@ -1,0 +1,6 @@
+{
+  "name": "Tawkers Chat",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/boniche-cR/reptilehaus-ng2-socket.io-chat",
+  "keywords": ["node", "express", "static"]
+}
