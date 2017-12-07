@@ -1,7 +1,7 @@
 'use strict';
 
 let db
-let dbconnection = 'mongodb://reptilehaus_u:reptilehaus_p@ds035026.mlab.com:35026/die-reptil'
+let dbconnection = 'mongodb://tawkersuser:123@ds011790.mlab.com:11790/tawkersdb'
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
