@@ -1,24 +1,7 @@
 {
-  "name": "socket-server",
-  "version": "0.0.1",
-  "description": "socket.io server",
+  "name": "Tawkers App",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "nodemon server.js"
-  },
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongodb": "^2.2.11",
-    "monk": "^3.1.3",
-    "socket.io": "^1.5.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  },
-  "engines": {
-    "node": "8.9.1"
-  }, 
-  "repository": {
-    "type": "https://github.com/boniche-cR/reptilehaus-ng2-socket.io-chat"
+    "postinstall": "npm install --prefix server && npm install --prefix client"
   }
 }
